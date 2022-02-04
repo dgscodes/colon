@@ -1,0 +1,24 @@
+h1{
+	font-size: 60px;
+	text-align: centre;
+}
+
+h1{
+	text-align: center;
+}
+
+li{
+	font-family: Helvetica;
+	font-size: 30px;
+}
+
+h2{
+	font-family: Baskerville;
+	font-size: 40px;
+}
+
+img{
+	text-align: right;
+	max-height: 40px;
+	max-width: 60px;
+}

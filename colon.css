@@ -25,6 +25,30 @@ img{
 	width: 60px;
 }
 
+img{
+	margin-left: 350px;
+}
 
+body{
+	background-color: #FFCBBA;
+}
 
+p{
+	color: #E6F8C3;
+}
+footer{
+	background-color: #FFF8C8;
+width:100%;
+ position:absolute;;
+ padding-left: 0px;
+ text-align: center;
+}
 
+footer{
+	padding-bottom: 20px;
+padding-top: 20px;
+}
+
+body{
+animation: ease-in;
+}

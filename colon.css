@@ -1,10 +1,12 @@
 h1{
 	font-size: 60px;
 	text-align: centre;
+	color: #8EE4AF;
 }
 
 h1{
 	text-align: center;
+	font-family: Georgia;
 }
 
 li{
@@ -13,7 +15,7 @@ li{
 }
 
 h2{
-	font-family: Baskerville;
+	font-family: Helvetica Neue;
 	font-size: 40px;
 }
 
@@ -26,29 +28,56 @@ img{
 }
 
 img{
-	margin-left: 350px;
+text-align: center;
 }
+
+ol{
+	font-family: Roboto, sans-serif;
+}
+
 
 body{
-	background-color: #FFCBBA;
+	background-color: #3778c2;
 }
 
-p{
-	color: #E6F8C3;
-}
 footer{
-	background-color: #FFF8C8;
+background-color: #8ee4af;
 width:100%;
  position:absolute;;
  padding-left: 0px;
  text-align: center;
+ font-family: Helvetica Neue;
 }
 
 footer{
 	padding-bottom: 20px;
 padding-top: 20px;
+color: #3778c2;
+}
+
+background-image{
+	background-image: url(file:///Users/cathysimon/Desktop/colon/Bg:colon.png);
+}
+
+span. img{
+	text-align: center;
+	
 }
 
 body{
-animation: ease-in;
+	background-image: ;
+}
+
+button{
+	padding: 20px;
+	border-radius: 30px;
+	border: double;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: white;
+
+}
+
+a{
+	color: #379683;
 }

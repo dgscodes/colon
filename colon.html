@@ -1,6 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+</head>
+<body>
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #379683;
+  color: black;
+}
+
+.active {
+  background-color: #8EE4AF;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">
+<img src="cologo.png"alt=cologo.png></a>
+  <div id="myLinks">
+    <a href="#news">List</a>
+    <a href="https://google.com">Introduces direct speech</a>
+    <a href="#about">Introudces quote</a>
+     <a href="#about"> Introduces explaination</a>
+     <a href="#about"> Separates initial & developing statment</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
+
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,30 +102,27 @@
 <link rel="stylesheet" type="text/css" href="colon.css">
 <STYLE>A {text-decoration: none;} </STYLE>
 
-<span><img src="cologo.png"alt=cologo.png></span>
 <H1>Colon :</H1>
-
-</head>
-<body>
-
-
+<img src="Colon.png"alt=Colon.png>
 
 <main>
 
 <h2>Colon functions:</h2>
 <ul>
-<li>Introduces a list:</li>
-<li>Introduces direct speech: "...."</li>
-<li>Introudces a quotation:'...'</li>
-<li>Introduces an explaination</li>
-<li>Separated an intial statement from a developing statement</li>
-</ul><img src="Colon.png"alt=Colon.png>
+<li>Introduces a list</li><br>
+<li>Introduces direct speech</li><br>
+<li>Introudces a quotation</li><br>
+<li>Introduces an explaination</li><br>
+<li>Separated an intial statement from a developing statement</li><br>
+</ul>
 
 <button><a href="file:///Users/cathysimon/Downloads/Untitled%20design%20(4).png">QR Code</a></button>
+
 
 </main>
 
 </body>
+
 
 <br><footer><b>By Gabi Finkel & Doron Simon</b></footer>
 
